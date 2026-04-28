@@ -1,0 +1,22 @@
+PPE Detection System : Personal protective equipment
+Problem: Workers not wearing helmet, gloves, vest.
+
+What model does:
+Detect helmet, safety vest, persons
+Real-time video monitoring
+
+Industry use:
+Factories, construction sites
+
+Architecture:
+Step 1: Prepare dataset
+Step 2: Select and Load the YOLO 26 model
+Step 3: Trained the model on our dataset
+Step 4: Feed the Input Image/video to our fine-tuned model
+Step 5: Real Time monitoring.
+
+Dataset: PPE_DATASET_YOLOv8
+A Dataset for Detecting Personal Protective Equipment in Workplace Environments
+
+Dataset Source: Kaggle
+
