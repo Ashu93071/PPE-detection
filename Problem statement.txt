@@ -1,4 +1,4 @@
-PPE Detection System (Top Industrial Use Case)
+PPE Detection System :Personal protective equipment
 Problem: Workers not wearing helmet, gloves, vest.
 
 What model does:

@@ -52,7 +52,6 @@ class PPEDetection:
         cap.release()
         cv2.destroyAllWindows()    
 
-
 if __name__=='__main__':
     detector=PPEDetection(model_path)
     detector.process_video(source_path)
