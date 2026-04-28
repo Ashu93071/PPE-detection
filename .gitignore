@@ -1,0 +1,3 @@
+# Example: ignore your database and environment secrets
+Problem statements.txt
+.env

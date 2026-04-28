@@ -4,15 +4,9 @@ import cv2
 model_path=r'project\trained_model\train\weights\best.pt'
 
 fined_model=YOLO(model_path)
-# result=fined_model(r'project\PPE sample.jpg',project=r'C:\Users\rushi\OneDrive\Desktop\DATA SCIENCE\YOLO\project\result',save=True)
-# print(result[0])
-
-# project\trained_model\train\weights\best.pt
 
 # source_path=r'project\test_video2.mp4'
 source_path="http://10.152.114.21:8080/video"
-
-# result=fined_model(source_path,project=r'C:\Users\rushi\OneDrive\Desktop\DATA SCIENCE\YOLO\project\result',save=True)
 
 class PPEDetection:
     def __init__(self,model_path):
@@ -58,19 +52,6 @@ class PPEDetection:
         cap.release()
         cv2.destroyAllWindows()    
 
-# cap=cv2.VideoCapture(source_path)
-# while True:
-#         ret,frame=cap.read()
-#         if ret:
-#             result=fined_model.track(frame,persist=True)
-#             # print(result)
-#             # cv2.imshow('Frame',frame)
-            
-#             if cv2.waitKey(1)==ord('q'):
-#                 break
-#         else:
-#             print('Source is not showing')
-#             break
 
 if __name__=='__main__':
     detector=PPEDetection(model_path)
